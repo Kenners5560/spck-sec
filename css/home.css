@@ -1,0 +1,115 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background-color: black;
+}
+.cta{
+    background-color: black;
+    width: 100vw;
+    height: 65vh;
+    color: white;
+    display: flex;
+    z-index: 1;
+    border-radius: 15px;
+    box-shadow: 2px 8px 100px red;
+    margin-bottom: 150px;
+}
+.cta-image{
+    width: 50%;
+    height: 100%;
+    opacity: 0.25;
+}
+.cta-main{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+}
+.cta-main h1{
+    color: red;
+}
+.search-holder{
+    margin-top: 20px;
+    display: flex;
+    gap: 25px;
+}
+.search-holder input{
+    width: 200px;
+    height: 35px;
+    background-color: black;
+    border: 1px solid red;
+    border-radius: 9px;
+    color: white;
+    text-align: center;
+}
+.search-holder button{
+    width: 100px;
+    height: 35px;
+    background-color: red;
+    border: 1px solid white;
+    border-radius: 12.5px;
+}
+.action-main-holder, .horror-main-holder, .comedy-main-holder, .animated-main-holder, .romance-main-holder{
+    min-width: 100vw;
+    min-height: 450px;
+    background-color: black;
+    padding-left: 7.5px;
+}
+.action-main-holder h1, .horror-main-holder h1, .comedy-main-holder h1, .animated-main-holder h1, .romance-main-holder h1{
+    color: white
+}
+.action-secondary-holder, .horror-secondary-holder, .comedy-secondary-holder, .animated-secondary-holder, .romance-secondary-holder{
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    align-items: center;
+    display: flex;
+    overflow-x: scroll;
+    scrollbar-color: #333 #000;
+}
+.action-item, .horror-item, .comedy-item, .animated-item, .horror-item, .romance-item{
+    background-color: rgb(30, 30, 30);
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 350px;
+    margin: 10px;
+    align-items: center;
+    border-radius: 20px;
+    
+}
+.action-item img, .horror-item img, .comedy-item img, .animated-item img, .horror-item img, .romance-item img{
+    width: 80%;
+    height: 60%;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.action-item h2, .action-item p, .horror-item h2, .horror-item p, .comedy-item h2, .comedy-item p, .animated-item h2, .animated-item p, .romance-item h2, .romance-item p{
+    color: white;
+}
+.action-item-button-holder, .horror-item-button-holder, .comedy-item-button-holder, .romance-item-button-holder, .animated-item-button-holder{
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+.view{
+    background-color: black;
+    color: red;
+    border: 2px solid red;
+    border-radius: 10px;
+    width: 125px;
+    height: 40px;
+}
+.watch{
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    width: 50%;
+    height: 40px;
+}
