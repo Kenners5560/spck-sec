@@ -3,46 +3,12 @@
     {
       "id": "001",
       "username": "Admin",
-      "password": "f254ulol",
       "email": "admin@gmail.com",
+      "password": "1234",
       "role": "admin"
-    },
-    {
-      "id": "002",
-      "username": "Hello",
-      "email": "jello@.com",
-      "password": "2234",
-      "role": "user"
-    },
-    {
-      "id": "002",
-      "username": "234",
-      "email": "@.com",
-      "password": "234",
-      "role": "user"
     }
   ],
   "products": [
-    {
-      "id": "001",
-      "name": "Movie 1",
-      "desc": "abc",
-      "main_image": "#",
-      "genre": "action"
-    },
-    {
-      "id": "002",
-      "name": "Movie 2",
-      "desc": "abc",
-      "main_image": "#",
-      "genre": "animation"
-    },
-    {
-      "id": "003",
-      "name": "Movie 3",
-      "desc": "abc",
-      "main_image": "#",
-      "genre": "romance"
-    }
+    
   ]
 }

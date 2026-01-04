@@ -32,6 +32,7 @@ body{
     margin-top: 10%;
 }
 .cta-main h1{
+    font-size: 45px;
     color: red;
 }
 .search-holder{
@@ -40,20 +41,23 @@ body{
     gap: 25px;
 }
 .search-holder input{
-    width: 200px;
-    height: 35px;
+    width: 350px;
+    height: 45px;
     background-color: black;
     border: 1px solid red;
     border-radius: 9px;
     color: white;
     text-align: center;
+    font-size: 20px;
 }
 .search-holder button{
-    width: 100px;
-    height: 35px;
+    width: 150px;
+    height: 45px;
     background-color: red;
     border: 1px solid white;
     border-radius: 12.5px;
+    color: white;
+    font-size: 20px;
 }
 .action-main-holder, .horror-main-holder, .comedy-main-holder, .animated-main-holder, .romance-main-holder{
     min-width: 100vw;
@@ -69,18 +73,19 @@ body{
     scroll-behavior: smooth;
     align-items: center;
     display: flex;
-    overflow-x: scroll;
     scrollbar-color: #333 #000;
 }
 .action-item, .horror-item, .comedy-item, .animated-item, .horror-item, .romance-item{
     background-color: rgb(30, 30, 30);
     display: flex;
     flex-direction: column;
-    width: 350px;
-    height: 350px;
+    min-width: 250px;
+    min-height: 350px;
     margin: 10px;
     align-items: center;
     border-radius: 20px;
+    text-align: center;
+    padding-bottom: 10px;
     
 }
 .action-item img, .horror-item img, .comedy-item img, .animated-item img, .horror-item img, .romance-item img{
@@ -89,8 +94,10 @@ body{
     border-radius: 20px;
     margin-top: 10px;
 }
-.action-item h2, .action-item p, .horror-item h2, .horror-item p, .comedy-item h2, .comedy-item p, .animated-item h2, .animated-item p, .romance-item h2, .romance-item p{
+.action-item h1, .horror-item h1, .comedy-item h1, .animated-item h1, .romance-item h1{
     color: white;
+    font-size: 20px;
+    margin-top: 10px
 }
 .action-item-button-holder, .horror-item-button-holder, .comedy-item-button-holder, .romance-item-button-holder, .animated-item-button-holder{
     display: flex;
@@ -112,4 +119,8 @@ body{
     color: white;
     width: 50%;
     height: 40px;
+}
+.watch a{
+    color: white;
+    text-decoration: none;
 }

@@ -1,5 +1,5 @@
 const accountsURL = "http://localhost:3000/accounts"
-let id = 2
+let id = 1
 
 
 function check_inputs(){
