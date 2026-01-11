@@ -6,9 +6,699 @@
       "email": "admin@gmail.com",
       "password": "1234",
       "role": "admin"
+    },
+    {
+      "id": "001",
+      "username": "Benners",
+      "email": "hello@.com",
+      "password": "12341234",
+      "role": "user"
+    },
+    {
+      "id": "001",
+      "username": "Hello",
+      "email": "@gmial.com",
+      "password": "12341234",
+      "role": "admin"
     }
   ],
   "products": [
-    
+    {
+      "id": 1242898,
+      "title": "Predator: Badlands",
+      "image": "/pHpq9yNUIo6aDoCXEBzjSolywgz.jpg",
+      "release_date": "2025-11-05",
+      "desc": "Cast out from his clan, a young Predator finds an unlikely ally in a damaged android and embarks on a treacherous journey in search of the ultimate adversary."
+    },
+    {
+      "id": 1022789,
+      "title": "Inside Out 2",
+      "image": "/vpnVM9B6NMmQpWeZvzLvDESb2QY.jpg",
+      "release_date": "2024-06-11",
+      "desc": "Teenager Riley's mind headquarters is undergoing a sudden demolition to make room for something entirely unexpected: new Emotions! Joy, Sadness, Anger, Fear and Disgust, who’ve long been running a successful operation by all accounts, aren’t sure how to feel when Anxiety shows up. And it looks like she’s not alone."
+    },
+    {
+      "id": 1241982,
+      "title": "Moana 2",
+      "image": "/aLVkiINlIeCkcZIzb7XHzPYgO6L.jpg",
+      "release_date": "2024-11-21",
+      "desc": "After receiving an unexpected call from her wayfinding ancestors, Moana journeys alongside Maui and a new crew to the far seas of Oceania and into dangerous, long-lost waters for an adventure unlike anything she's ever faced."
+    },
+    {
+      "id": 569094,
+      "title": "Spider-Man: Across the Spider-Verse",
+      "image": "/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg",
+      "release_date": "2023-05-31",
+      "desc": "After reuniting with Gwen Stacy, Brooklyn’s full-time, friendly neighborhood Spider-Man is catapulted across the Multiverse, where he encounters the Spider Society, a team of Spider-People charged with protecting the Multiverse's very existence. But when the heroes clash on how to handle a new threat, Miles finds himself pitted against the other Spiders and must set out on his own to save those he loves most."
+    },
+    {
+      "id": 1252037,
+      "title": "The Tank",
+      "image": "/65Jr1JAgWlu9em8zHhAfrNJJQBt.jpg",
+      "release_date": "2025-09-18",
+      "desc": "A German Tiger tank crew is sent on a dangerous mission to rescue the missing officer Paul von Hardenburg from a top-secret bunker behind enemy lines. As they make their way through the lethal no-man's land, they must confront not only the enemy, but also their own fears and inner demons. Fueled by the Wehrmacht's methamphetamine, their mission increasingly becomes a journey into the heart of darkness."
+    },
+    {
+      "id": 1242501,
+      "title": "Icefall",
+      "image": "/5Byv6nznAb2Izd0gHpODOXnuSbo.jpg",
+      "release_date": "2025-10-16",
+      "desc": "A young Indigenous game warden arrests an infamous poacher only to discover that the poacher knows the location of a plane carrying millions of dollars that has crashed in a frozen lake. When a group of criminals and dirty cops are alerted to the poacher’s whereabouts, the warden and the poacher team up to fight back and escape across the treacherous lake before the ice melts."
+    },
+    {
+      "id": 1119090,
+      "title": "I Am Frankelda",
+      "image": "/hDzllxB1TQ7uUxVvjnGHirJJovt.jpg",
+      "release_date": "2025-10-23",
+      "desc": "Frankelda, a frustrated young Mexican writer from the 19th Century, travels in the form of a ghost to a kingdom of her own invention inhabited by Spooks, which are all the monstrous characters she created in her horror tales. Her guide is Herneval, the Prince of Spooks, who takes her to help him save the balance between the Realm of Fiction and the Realm of Existence by using her talent as a writer."
+    },
+    {
+      "id": 628847,
+      "title": "Trap House",
+      "image": "/6tpAPeuuqbVnYWWPoOLEDLSBU7a.jpg",
+      "release_date": "2025-11-14",
+      "desc": "An undercover DEA agent and his partner embark on a game of cat and mouse with an audacious, and surprising group of thieves - their own rebellious teenagers, who have begun robbing from a dangerous cartel, using their parents' tactics and top-secret intel to do it."
+    },
+    {
+      "id": 1511417,
+      "title": "Bāhubali: The Epic",
+      "image": "/z9YIo2qscyaXYgRqIdRJtND3bw8.jpg",
+      "release_date": "2025-10-29",
+      "desc": "When a mysterious child is found by a tribal couple near a roaring waterfall, they raise him as their own. As he grows, Sivudu is drawn to the world beyond the cliffs, where he discovers the ancient kingdom of Mahishmati, ruled by a cruel tyrant, haunted by rebellion, and bound to his past. What begins as a quest for love soon unravels a legacy of betrayal, sacrifice, and a forgotten prince."
+    },
+    {
+      "id": 1311031,
+      "title": "Demon Slayer: Kimetsu no Yaiba Infinity Castle",
+      "image": "/fWVSwgjpT2D78VUh6X8UBd2rorW.jpg",
+      "release_date": "2025-07-18",
+      "desc": "The Demon Slayer Corps are drawn into the Infinity Castle, where Tanjiro, Nezuko, and the Hashira face terrifying Upper Rank demons in a desperate fight as the final battle against Muzan Kibutsuji begins."
+    },
+    {
+      "id": 1131759,
+      "title": "Omniscient Reader: The Prophecy",
+      "image": "/3R3dXO2nm8JyR5NG7SEfii7RzlV.jpg",
+      "release_date": "2025-07-23",
+      "desc": "Kim Dok-ja, an ordinary man in his 20s, is the only reader of an obscure web novel titled \"Three Ways to Survive the Apocalypse\". After having read the last chapter, the novel suddenly becomes reality, and its omnipotent hero Yu Jung-hyeok appears before Kim. As the only person who knows how to survive in this world, Kim and his companions strive to save the world by writing his own, new ending."
+    },
+    {
+      "id": 1175942,
+      "title": "The Bad Guys 2",
+      "image": "/c1msaKf1wyuKcmLjjJd6rIBPFcd.jpg",
+      "release_date": "2025-07-24",
+      "desc": "The now-reformed Bad Guys are trying (very, very hard) to be good, but instead find themselves hijacked into a high-stakes, globe-trotting heist, masterminded by a new team of criminals they never saw coming: The Bad Girls."
+    },
+    {
+      "id": 1022787,
+      "title": "Elio",
+      "image": "/7z8jDiTZZco9moIKpTUImFtTy7o.jpg",
+      "release_date": "2025-06-18",
+      "desc": "Elio, a space fanatic with an active imagination, finds himself on a cosmic misadventure where he must form new bonds with eccentric alien lifeforms, navigate a crisis of intergalactic proportions and somehow discover who he is truly meant to be."
+    },
+    {
+      "id": 519182,
+      "title": "Despicable Me 4",
+      "image": "/wWba3TaojhK7NdycRhoQpsG0FaH.jpg",
+      "release_date": "2024-06-20",
+      "desc": "Gru and Lucy and their girls—Margo, Edith and Agnes—welcome a new member to the Gru family, Gru Jr., who is intent on tormenting his dad. Gru also faces a new nemesis in Maxime Le Mal and his femme fatale girlfriend Valentina, forcing the family to go on the run."
+    },
+    {
+      "id": 1137179,
+      "title": "Yadang: The Snitch",
+      "image": "/y7dsDbG8zVWkrkyOhA6ckZXX1uC.jpg",
+      "release_date": "2025-04-16",
+      "desc": "Navigating both the criminal underworld and law enforcement agencies, professional snitches called \"yadang\" provide covert information about the drug world to prosecutors and police. When a drug bust at a party attended by high-profile second-generation VIPs entangles those involved into a dangerous conspiracy, a seasoned yadang must do everything in his power not just to make it out on top, but alive."
+    },
+    {
+      "id": 1512623,
+      "title": "Risqué",
+      "image": "/h6OsRrDwbspLnKMvlFl57QFDP7d.jpg",
+      "release_date": "2025-08-01",
+      "desc": "Fired from a strip club, a vengeful dancer masterminds a high-stakes heist with fellow strippers to take down the corrupt boss and the men who underestimate them."
+    },
+    {
+      "id": 1419406,
+      "title": "The Shadow's Edge",
+      "image": "/e0RU6KpdnrqFxDKlI3NOqN8nHL6.jpg",
+      "release_date": "2025-08-16",
+      "desc": "Macau Police brings the tracking expert police officer out of retirement to help catch a dangerous group of professional thieves."
+    },
+    {
+      "id": 1137179,
+      "title": "Yadang: The Snitch",
+      "image": "/y7dsDbG8zVWkrkyOhA6ckZXX1uC.jpg",
+      "release_date": "2025-04-16",
+      "desc": "Navigating both the criminal underworld and law enforcement agencies, professional snitches called \"yadang\" provide covert information about the drug world to prosecutors and police. When a drug bust at a party attended by high-profile second-generation VIPs entangles those involved into a dangerous conspiracy, a seasoned yadang must do everything in his power not just to make it out on top, but alive."
+    },
+    {
+      "id": 1439112,
+      "title": "Muzzle: City of Wolves",
+      "image": "/8qTMRmC07XCGidnKQFLbRM3FoDU.jpg",
+      "release_date": "2025-11-13",
+      "desc": "LAPD officer Jake Rosser endeavors to lead a peaceful life with his family and retired K-9 officer, Socks. However, tranquility dissolves into chaos when a gang targets them in a brutal attack. Alongside his new K-9 partner Argos, Jake launches into a relentless pursuit of justice, determined to protect his loved ones."
+    },
+    {
+      "id": 1247002,
+      "title": "The Old Woman with the Knife",
+      "image": "/wbmxnsv41vsg5UEaNDlf203dOWw.jpg",
+      "release_date": "2025-04-30",
+      "desc": "Aging assassin Hornclaw has seen it all, but she never expected to mentor a reckless rookie like Bullfight. As their unlikely bond deepens, cracks form in the underworld they navigate together. When Hornclaw discovers someone wants her dead, she's thrust into a deadly game of deception. With enemies closing in and trust in short supply, survival means staying sharp—both blade and mind."
+    },
+    {
+      "id": 1539104,
+      "title": "JUJUTSU KAISEN: Execution",
+      "image": "/v0s3dx6am0RzfsuK3KdEy8ZoCDs.jpg",
+      "release_date": "2025-11-07",
+      "desc": "A veil abruptly descends over the busy Shibuya area amid the bustling Halloween crowds, trapping countless civilians inside. Satoru Gojo, the strongest jujutsu sorcerer, steps into the chaos. But lying in wait are curse users and spirits scheming to seal him away. Yuji Itadori, accompanied by his classmates and other top-tier jujutsu sorcerers, enters the fray in an unprecedented clash of curses — the Shibuya Incident. In the aftermath, ten colonies across Japan are transformed into dens of curses in a plan orchestrated by Noritoshi Kamo. As the deadly Culling Game starts, Special Grade sorcerer Yuta Okkotsu is assigned to carry out Yuji's execution for his perceived crimes. A compilation movie of Shibuya Incident including the first two episodes of the Culling Games arc."
+    },
+    {
+      "id": 1196067,
+      "title": "Worldbreaker",
+      "image": "/7K8w6mdrJp0oaSoKWGyjSZ4Zv2z.jpg",
+      "release_date": "2025-10-30",
+      "desc": "Five years ago, a tear in the fabric of reality brought creatures to our world from an alternate dimension bent on our destruction. A father hides his daughter on an island to keep her safe while he prepares her for survival and the battles to come. But when the world is about to break, no place is safe."
+    },
+    {
+      "id": 1234731,
+      "title": "Anaconda",
+      "image": "/5MDnvvkOqthhE5gQebzkcOhD1p5.jpg",
+      "release_date": "2025-12-24",
+      "desc": "A group of friends facing mid-life crises head to the rainforest with the intention of remaking their favorite movie from their youth, only to find themselves in a fight for their lives against natural disasters, giant snakes and violent criminals."
+    },
+    {
+      "id": 1491902,
+      "title": "Bang",
+      "image": "/8SUzKOqe2ectvhYdSnR7Vq2F3n1.jpg",
+      "release_date": "2025-07-11",
+      "desc": "Follows a ruthless hitman who, after narrowly escaping a fatal attempt on his life, betrays his gang in an effort to find forgiveness but ends up becoming a target himself."
+    },
+    {
+      "id": 533533,
+      "title": "TRON: Ares",
+      "image": "/chpWmskl3aKm1aTZqUHRCtviwPy.jpg",
+      "release_date": "2025-10-08",
+      "desc": "A highly sophisticated Program called Ares is sent from the digital world into the real world on a dangerous mission, marking humankind's first encounter with A.I. beings."
+    },
+    {
+      "id": 1539104,
+      "title": "JUJUTSU KAISEN: Execution",
+      "image": "/v0s3dx6am0RzfsuK3KdEy8ZoCDs.jpg",
+      "release_date": "2025-11-07",
+      "desc": "A veil abruptly descends over the busy Shibuya area amid the bustling Halloween crowds, trapping countless civilians inside. Satoru Gojo, the strongest jujutsu sorcerer, steps into the chaos. But lying in wait are curse users and spirits scheming to seal him away. Yuji Itadori, accompanied by his classmates and other top-tier jujutsu sorcerers, enters the fray in an unprecedented clash of curses — the Shibuya Incident. In the aftermath, ten colonies across Japan are transformed into dens of curses in a plan orchestrated by Noritoshi Kamo. As the deadly Culling Game starts, Special Grade sorcerer Yuta Okkotsu is assigned to carry out Yuji's execution for his perceived crimes. A compilation movie of Shibuya Incident including the first two episodes of the Culling Games arc."
+    },
+    {
+      "id": 76600,
+      "title": "Avatar: The Way of Water",
+      "image": "/t6HIqrRAclMCA60NsSmeqe9RmNV.jpg",
+      "release_date": "2022-12-14",
+      "desc": "Set more than a decade after the events of the first film, learn the story of the Sully family (Jake, Neytiri, and their kids), the trouble that follows them, the lengths they go to keep each other safe, the battles they fight to stay alive, and the tragedies they endure."
+    },
+    {
+      "id": 1223601,
+      "title": "Sisu: Road to Revenge",
+      "image": "/jNsttCWZyPtW66MjhUozBzVsRb7.jpg",
+      "release_date": "2025-10-21",
+      "desc": "Returning to the house where his family was brutally murdered during the war, ‘the man who refuses to die’ dismantles it, loads it on a truck, and is determined to rebuild it somewhere safe in their honor. When the commander who killed his family comes back hellbent on finishing the job, a relentless, eye-popping cross-country chase ensues."
+    },
+    {
+      "id": 19995,
+      "title": "Avatar",
+      "image": "/gKY6q7SjCkAU6FqvqWybDYgUKIF.jpg",
+      "release_date": "2009-12-16",
+      "desc": "In the 22nd century, a paraplegic Marine is dispatched to the moon Pandora on a unique mission, but becomes torn between following orders and protecting an alien civilization."
+    },
+    {
+      "id": 1196067,
+      "title": "Worldbreaker",
+      "image": "/7K8w6mdrJp0oaSoKWGyjSZ4Zv2z.jpg",
+      "release_date": "2025-10-30",
+      "desc": "Five years ago, a tear in the fabric of reality brought creatures to our world from an alternate dimension bent on our destruction. A father hides his daughter on an island to keep her safe while he prepares her for survival and the battles to come. But when the world is about to break, no place is safe."
+    },
+    {
+      "id": 7451,
+      "title": "xXx",
+      "image": "/xeEw3eLeSFmJgXZzmF2Efww0q3s.jpg",
+      "release_date": "2002-08-09",
+      "desc": "Xander Cage is your standard adrenaline junkie with no fear and a lousy attitude. When the US Government \"recruits\" him to go on a mission, he's not exactly thrilled. His mission: to gather information on an organization that may just be planning the destruction of the world, led by the nihilistic Yorgi."
+    },
+    {
+      "id": 1228246,
+      "title": "Five Nights at Freddy's 2",
+      "image": "/udAxQEORq2I5wxI97N2TEqdhzBE.jpg",
+      "release_date": "2025-12-03",
+      "desc": "One year since the supernatural nightmare at Freddy Fazbear's Pizza, the stories about what transpired there have been twisted into a campy local legend, inspiring the town's first ever Fazfest. With the truth kept from her, Abby sneaks out to reconnect with Freddy, Bonnie, Chica, and Foxy, setting into motion a terrifying series of events that will reveal dark secrets about the real origin of Freddy's, and unleash a decades-hidden horror."
+    },
+    {
+      "id": 1246049,
+      "title": "Dracula",
+      "image": "/ykyRfv7JDofLxXLAwtLXaSuaFfM.jpg",
+      "release_date": "2025-07-30",
+      "desc": "When a 15th-century prince denounces God after the devastating loss of his wife, he inherits an eternal curse: he becomes Dracula. Condemned to wander the centuries, he defies fate and death itself, guided by a single hope — to be reunited with his lost love."
+    },
+    {
+      "id": 1022453,
+      "title": "The Rajasaab",
+      "image": "/nvK6gYa4diCnQkDVN42uoYXPrdT.jpg",
+      "release_date": "2026-01-08",
+      "desc": "A young heir embraces both his royal heritage and rebellious spirit as he rises to power, establishing unprecedented rules during his reign as Raja Saab."
+    },
+    {
+      "id": 772462,
+      "title": "Don't Follow Me",
+      "image": "/wBYicLV0zfdtXweWXcoiou3moNu.jpg",
+      "release_date": "2025-10-30",
+      "desc": "Obsessed with going viral with her videos of ghosts and paranormal events, aspiring influencer Carla moves into a famous haunted building. There, she begins faking ghostly apparitions to gain more followers, unaware that a real evil entity resides in her apartment and will torment her until no one, not even she, can distinguish what's real and what isn't."
+    },
+    {
+      "id": 1327881,
+      "title": "Voice of Shadows",
+      "image": "/hffZQgrulC6jgneLuTANQrYgiui.jpg",
+      "release_date": "2024-09-17",
+      "desc": "A young working class woman stands to inherit an estate if she and her boyfriend abide by a set of bizarre stipulations."
+    },
+    {
+      "id": 1090983,
+      "title": "The Beldham",
+      "image": "/suY2CNfGwq3kccMZuMA1sXAcNXm.jpg",
+      "release_date": "2025-11-07",
+      "desc": "At the edge of postpartum psychosis, new mother Harper moves in with her own mother at their family's rural farmhouse. Soon she finds herself hunted by a threatening monster who has designs on her child."
+    },
+    {
+      "id": 1234731,
+      "title": "Anaconda",
+      "image": "/5MDnvvkOqthhE5gQebzkcOhD1p5.jpg",
+      "release_date": "2025-12-24",
+      "desc": "A group of friends facing mid-life crises head to the rainforest with the intention of remaking their favorite movie from their youth, only to find themselves in a fight for their lives against natural disasters, giant snakes and violent criminals."
+    },
+    {
+      "id": 1445698,
+      "title": "The Pearl Comb",
+      "image": "/737hppvYVz8Wx9I2McyQPHCD7PB.jpg",
+      "release_date": "2025-03-06",
+      "desc": "A doctor, hell-bent on proving a woman’s place is in the home and not practising medicine, is sent to investigate her miraculous claim - only to discover the source of her unearthly power..."
+    },
+    {
+      "id": 1062722,
+      "title": "Frankenstein",
+      "image": "/g4JtvGlQO7DByTI6frUobqvSL3R.jpg",
+      "release_date": "2025-10-17",
+      "desc": "Dr. Victor Frankenstein, a brilliant but egotistical scientist, brings a creature to life in a monstrous experiment that ultimately leads to the undoing of both the creator and his tragic creation."
+    },
+    {
+      "id": 1408208,
+      "title": "Exit 8",
+      "image": "/nQXYTvm6AY4WmtcPskroqC7Skh.jpg",
+      "release_date": "2025-08-28",
+      "desc": "A man gets lost in an underground passage. He follows the \"guide\" through the passage, but one after another, strange things happen to him. Is this space real? Or an illusion? Will the man be able to escape the passage?"
+    },
+    {
+      "id": 1309129,
+      "title": "Diabolical",
+      "image": "/AbXG2f6AGXeIsc127cBKTYrxFyN.jpg",
+      "release_date": "2025-09-29",
+      "desc": "Jessica grew up with a mother plagued by inexplicable psychological issues. Years later, Jessica begins to experience the same disturbing symptoms and she starts to suspect that the cause isn't psychological but something evil."
+    },
+    {
+      "id": 1206083,
+      "title": "Conjuring Tapes",
+      "image": "/puPN6uC5NpbAQW8dDovGkJ79arn.jpg",
+      "release_date": "2025-04-10",
+      "desc": "While sorting through their late friend's belongings, two women discover VHS tapes showing them in haunting, unfamiliar scenes, each one drawing them into the grasp of a mysterious, malevolent entity."
+    },
+    {
+      "id": 1246049,
+      "title": "Dracula",
+      "image": "/ykyRfv7JDofLxXLAwtLXaSuaFfM.jpg",
+      "release_date": "2025-07-30",
+      "desc": "When a 15th-century prince denounces God after the devastating loss of his wife, he inherits an eternal curse: he becomes Dracula. Condemned to wander the centuries, he defies fate and death itself, guided by a single hope — to be reunited with his lost love."
+    },
+    {
+      "id": 1034716,
+      "title": "People We Meet on Vacation",
+      "image": "/xzZaU0MN6L9oc1pl0RUXSB7hWwD.jpg",
+      "release_date": "2026-01-06",
+      "desc": "Poppy's a free spirit. Alex loves a plan. After years of summer vacations, these polar-opposite pals wonder if they could be a perfect romantic match."
+    },
+    {
+      "id": 1218925,
+      "title": "Chainsaw Man - The Movie: Reze Arc",
+      "image": "/pHyxb2RV5wLlboAwm9ZJ9qTVEDw.jpg",
+      "release_date": "2025-09-19",
+      "desc": "In a brutal war between devils, hunters, and secret enemies, a mysterious girl named Reze has stepped into Denji's world, and he faces his deadliest battle yet, fueled by love in a world where survival knows no rules."
+    },
+    {
+      "id": 1315303,
+      "title": "Primate",
+      "image": "/5Q1zdYe9PYEXMGELzjfjyx8Eb7H.jpg",
+      "release_date": "2026-01-01",
+      "desc": "Lucy, a college student, along with her friends, spend their vacation at her family's home in Hawaii, which includes her pet chimpanzee, Ben. However, when Ben contracts rabies after being bitten by a rabid animal, the group must fight for their lives in order to avoid the now-violent chimp."
+    },
+    {
+      "id": 1022453,
+      "title": "The Rajasaab",
+      "image": "/nvK6gYa4diCnQkDVN42uoYXPrdT.jpg",
+      "release_date": "2026-01-08",
+      "desc": "A young heir embraces both his royal heritage and rebellious spirit as he rises to power, establishing unprecedented rules during his reign as Raja Saab."
+    },
+    {
+      "id": 1354700,
+      "title": "The Ghost Game",
+      "image": "/6uF6PnY1gWNmDkAMYO1qhgdgozM.jpg",
+      "release_date": "2025-08-06",
+      "desc": "Aspiring YouTuber Gi-ho stages a fake seance for viral content, but Ja-young joins, seeking her missing sister Seo-woo. In an underground cistern, Seo-woo volunteers as the \"possessed,\" but when she collapses, terror unfolds. Trapped with sinister forces, the students face a deadly fate, leading to a shocking twist."
+    },
+    {
+      "id": 1233413,
+      "title": "Sinners",
+      "image": "/qTvFWCGeGXgBRaINLY1zqgTPSpn.jpg",
+      "release_date": "2025-04-16",
+      "desc": "Trying to leave their troubled lives behind, twin brothers return to their hometown to start again, only to discover that an even greater evil is waiting to welcome them back."
+    },
+    {
+      "id": 1103437,
+      "title": "Please Don't Feed the Children",
+      "image": "/GoIIdrjmXo587L2s2mqgMFvBIs.jpg",
+      "release_date": "2025-07-03",
+      "desc": "After a viral outbreak ravaged the country’s adult population, a group of orphans heads south in search of a new life, only to find themselves at the mercy of a deranged woman harboring a dangerous secret."
+    },
+    {
+      "id": 1301122,
+      "title": "Nazi Supersoldier",
+      "image": "/3daBOc5ZcICXMzAVNhzJTSgweaP.jpg",
+      "release_date": "2024-10-13",
+      "desc": "A group of journalism students ventures into a remote forest and awakens a long-frozen World War II experiment a superhuman Nazi soldier. Hunted through cursed woods where trust crumbles and survival is slim, they soon learn that some sins demand blood."
+    },
+    {
+      "id": 1194963,
+      "title": "Noise",
+      "image": "/uU3NXe7QqjJNxVpYPdz8dscFWlj.jpg",
+      "release_date": "2025-06-25",
+      "desc": "Ju-young is a young woman with a hearing impediment who decides to investigate her sister's inexplicable disappearance, last seen in her apartment. Feeling more and more cornered, Ju-young begins to hear strange sounds and sense an evil presence in the apartment."
+    },
+    {
+      "id": 1078605,
+      "title": "Weapons",
+      "image": "/cpf7vsRZ0MYRQcnLWteD5jK9ymT.jpg",
+      "release_date": "2025-08-04",
+      "desc": "When all but one child from the same class mysteriously vanish on the same night at exactly the same time, a community is left questioning who or what is behind their disappearance."
+    },
+    {
+      "id": 1403735,
+      "title": "Laila",
+      "image": "/aFogllaRGlAhk1nqvVGFpZpl4qU.jpg",
+      "release_date": "2025-02-14",
+      "desc": "Sonu Model, a renowned beautician from the old city, is forced to disguise himself as Laila, leading to a series of comedic, romantic, and action-packed events. Chaos ensues in this hilarious laugh riot"
+    },
+    {
+      "id": 967941,
+      "title": "Wicked: For Good",
+      "image": "/si9tolnefLSUKaqQEGz1bWArOaL.jpg",
+      "release_date": "2025-11-19",
+      "desc": "As an angry mob rises against the Wicked Witch, Glinda and Elphaba will need to come together one final time. With their singular friendship now the fulcrum of their futures, they will need to truly see each other, with honesty and empathy, if they are to change themselves, and all of Oz, for good."
+    },
+    {
+      "id": 1034716,
+      "title": "People We Meet on Vacation",
+      "image": "/xzZaU0MN6L9oc1pl0RUXSB7hWwD.jpg",
+      "release_date": "2026-01-06",
+      "desc": "Poppy's a free spirit. Alex loves a plan. After years of summer vacations, these polar-opposite pals wonder if they could be a perfect romantic match."
+    },
+    {
+      "id": 1218925,
+      "title": "Chainsaw Man - The Movie: Reze Arc",
+      "image": "/pHyxb2RV5wLlboAwm9ZJ9qTVEDw.jpg",
+      "release_date": "2025-09-19",
+      "desc": "In a brutal war between devils, hunters, and secret enemies, a mysterious girl named Reze has stepped into Denji's world, and he faces his deadliest battle yet, fueled by love in a world where survival knows no rules."
+    },
+    {
+      "id": 1010581,
+      "title": "My Fault",
+      "image": "/w46Vw536HwNnEzOa7J24YH9DPRS.jpg",
+      "release_date": "2023-06-08",
+      "desc": "Noah must leave her city, boyfriend, and friends to move into William Leister's mansion, the flashy and wealthy husband of her mother Rafaela. As a proud and independent 17 year old, Noah resists living in a mansion surrounded by luxury. However, it is there where she meets Nick, her new stepbrother, and the clash of their strong personalities becomes evident from the very beginning."
+    },
+    {
+      "id": 597,
+      "title": "Titanic",
+      "image": "/9xjZS2rlVxm8SFx8kPC3aIGCOYQ.jpg",
+      "release_date": "1997-12-18",
+      "desc": "101-year-old Rose DeWitt Bukater tells the story of her life aboard the Titanic, 84 years later. A young Rose boards the ship with her mother and fiancé. Meanwhile, Jack Dawson and Fabrizio De Rossi win third-class tickets aboard the ship. Rose tells the whole story from Titanic's departure through to its death—on its first and last voyage—on April 15, 1912."
+    },
+    {
+      "id": 1495694,
+      "title": "Beauty from Pain",
+      "image": "/mJtBKvHQaFzgp0N6JFskSvjbTar.jpg",
+      "release_date": "2025-12-18",
+      "desc": "After a devastating heartbreak, an aspiring musician escapes to Australia. She agrees to a no-strings romance with a billionaire winemaker, but when she falls in love she must choose to walk away or risk her heart on a man afraid to love."
+    },
+    {
+      "id": 1259102,
+      "title": "Eternity",
+      "image": "/o8pg20G67BGmQvRkXwstNre062J.jpg",
+      "release_date": "2025-11-26",
+      "desc": "In an afterlife where souls have one week to decide where to spend eternity, Joan is faced with the impossible choice between the man she spent her life with and her first love, who died young and has waited decades for her to arrive."
+    },
+    {
+      "id": 1084242,
+      "title": "Zootopia 2",
+      "image": "/bjUWGw0Ao0qVWxagN3VCwBJHVo6.jpg",
+      "release_date": "2025-11-26",
+      "desc": "After cracking the biggest case in Zootopia's history, rookie cops Judy Hopps and Nick Wilde find themselves on the twisting trail of a great mystery when Gary De'Snake arrives and turns the animal metropolis upside down. To crack the case, Judy and Nick must go undercover to unexpected new parts of town, where their growing partnership is tested like never before."
+    },
+    {
+      "id": 1144443,
+      "title": "Follow My Voice",
+      "image": "/kBd17L811S97JESH9ma1pPMO0o0.jpg",
+      "release_date": "2025-09-12",
+      "desc": "After a health crisis that keeps her home, Klara does nothing but listen to her favorite radio show, Follow My Voice. But one day she wonders: is it possible to fall in love with someone she has only heard on the radio but never met? Could she really have feelings for Kang, the radio show host whose voice she has only heard once, and will she overcome her fears to step out into the world again?"
+    },
+    {
+      "id": 803796,
+      "title": "KPop Demon Hunters",
+      "image": "/zT7Lhw3BhJbMkRqm9Zlx2YGMsY0.jpg",
+      "release_date": "2025-06-20",
+      "desc": "When K-pop superstars Rumi, Mira and Zoey aren't selling out stadiums, they're using their secret powers to protect their fans from supernatural threats."
+    },
+    {
+      "id": 756397,
+      "title": "Hitpig!",
+      "image": "/bYa20LYAZ3Q7lKXtLYybo0yWWTN.jpg",
+      "release_date": "2024-11-01",
+      "desc": "A porcine bounty hunter accepts his next hit: Pickles, a naive, ebullient elephant. Though he initially sets out to capture the perky pachyderm, the unlikely pair find themselves crisscrossing the globe on an adventure that brings out the best in both of them."
+    },
+    {
+      "id": 269149,
+      "title": "Zootopia",
+      "image": "/hlK0e0wAQ3VLuJcsfIYPvb4JVud.jpg",
+      "release_date": "2016-02-11",
+      "desc": "Determined to prove herself, Officer Judy Hopps, the first bunny on Zootopia's police force, jumps at the chance to crack her first case - even if it means partnering with scam-artist fox Nick Wilde to solve the mystery."
+    },
+    {
+      "id": 1523145,
+      "title": "Your Heart Will Be Broken",
+      "image": "/naOC89qeEygU44xM9EIot1m5AUQ.jpg",
+      "release_date": "2026-03-05",
+      "desc": "High school student Polina is saved from bullying at her new school and makes a deal with the main bully Bars: he must pretend to be her boyfriend and protect her, and she must do everything he says. During this game, the couple develops real feelings, but her family and classmates have reasons to separate the lovers."
+    },
+    {
+      "id": 1327862,
+      "title": "Regretting You",
+      "image": "/z4gVnxTaks3anTycwKjDmvQSuWt.jpg",
+      "release_date": "2025-10-22",
+      "desc": "Morgan Grant and her daughter Clara explore what's left behind after a devastating accident reveals a shocking betrayal and forces them to confront family secrets, redefine love, and rediscover each other."
+    },
+    {
+      "id": 402431,
+      "title": "Wicked",
+      "image": "/2E1x1qcHqGZcYuYi4PzVZjzg8IV.jpg",
+      "release_date": "2024-10-16",
+      "desc": "In the land of Oz, ostracized and misunderstood green-skinned Elphaba is forced to share a room with the popular aristocrat Glinda at Shiz University, and the two's unlikely friendship is tested as they begin to fulfill their respective destinies as Glinda the Good and the Wicked Witch of the West."
+    },
+    {
+      "id": 991494,
+      "title": "The SpongeBob Movie: Search for SquarePants",
+      "image": "/pDWYW9v8fmJdA7N0I1MOdQA3ETq.jpg",
+      "release_date": "2025-12-16",
+      "desc": "Desperate to be a big guy, SpongeBob sets out to prove his bravery to Mr. Krabs by following The Flying Dutchman – a mysterious swashbuckling ghost pirate – on a seafaring adventure that takes him to the deepest depths of the deep sea, where no Sponge has gone before."
+    },
+    {
+      "id": 1379963,
+      "title": "Tell Me Softly",
+      "image": "/6Z37lW0JfLdeFcgH9yaTyg6B9A6.jpg",
+      "release_date": "2025-12-11",
+      "desc": "Kamila has everything under control: studies, social life, her image... Everything except the unexpected return of her neighbors, the Di Bianco brothers, after seven years of absence. Thiago stole her first kiss, and Taylor was her best friend, but now their return will turn Kami's world upside down. Can the three overcome the past that binds them? Or will everything explode into pieces once again?"
+    },
+    {
+      "id": 1156594,
+      "title": "Our Fault",
+      "image": "/yzqHt4m1SeY9FbPrfZ0C2Hi9x1s.jpg",
+      "release_date": "2025-10-15",
+      "desc": "Jenna and Lion's wedding brings about the long-awaited reunion between Noah and Nick after their breakup. Nick's inability to forgive Noah stands as an insurmountable barrier. He, heir to his grandfather's businesses, and she, starting her professional life, resist fueling a flame that's still alive. But now that their paths have crossed again, will love be stronger than resentment?"
+    },
+    {
+      "id": 950396,
+      "title": "The Gorge",
+      "image": "/7iMBZzVZtG0oBug4TfqDb9ZxAOa.jpg",
+      "release_date": "2025-02-13",
+      "desc": "Two highly trained operatives grow close from a distance after being sent to guard opposite sides of a mysterious gorge. When an evil below emerges, they must work together to survive what lies within."
+    },
+    {
+      "id": 957119,
+      "title": "Sidelined: The QB and Me",
+      "image": "/mSL6truNrWP1Bn9ng1rN0SkMI4f.jpg",
+      "release_date": "2025-02-06",
+      "desc": "Dallas, a burdened but headstrong dancer, is determined to get into the best dance school in the country—her late mother’s alma mater. However, that dream is suddenly derailed when the cheeky yet secretly grieving football star, Drayton, crashes into her life with a unique story of his own. Will the two of them be able to grow into their dreams together, or will their dreams be sidelined?"
+    },
+    {
+      "id": 858024,
+      "title": "Hamnet",
+      "image": "/71KNp6RiOQTbs8Fn1DagrFQrZmx.jpg",
+      "release_date": "2025-11-26",
+      "desc": "The powerful story of love and loss that inspired the creation of Shakespeare's timeless masterpiece, Hamlet."
+    },
+    {
+      "id": 1403735,
+      "title": "Laila",
+      "image": "/aFogllaRGlAhk1nqvVGFpZpl4qU.jpg",
+      "release_date": "2025-02-14",
+      "desc": "Sonu Model, a renowned beautician from the old city, is forced to disguise himself as Laila, leading to a series of comedic, romantic, and action-packed events. Chaos ensues in this hilarious laugh riot"
+    },
+    {
+      "id": 1259102,
+      "title": "Eternity",
+      "image": "/o8pg20G67BGmQvRkXwstNre062J.jpg",
+      "release_date": "2025-11-26",
+      "desc": "In an afterlife where souls have one week to decide where to spend eternity, Joan is faced with the impossible choice between the man she spent her life with and her first love, who died young and has waited decades for her to arrive."
+    },
+    {
+      "id": 1311031,
+      "title": "Demon Slayer: Kimetsu no Yaiba Infinity Castle",
+      "image": "/fWVSwgjpT2D78VUh6X8UBd2rorW.jpg",
+      "release_date": "2025-07-18",
+      "desc": "The Demon Slayer Corps are drawn into the Infinity Castle, where Tanjiro, Nezuko, and the Hashira face terrifying Upper Rank demons in a desperate fight as the final battle against Muzan Kibutsuji begins."
+    },
+    {
+      "id": 372058,
+      "title": "Your Name.",
+      "image": "/q719jXXEzOoYaps6babgKnONONX.jpg",
+      "release_date": "2016-08-26",
+      "desc": "High schoolers Mitsuha and Taki are complete strangers living separate lives. But one night, they suddenly switch places. Mitsuha wakes up in Taki’s body, and he in hers. This bizarre occurrence continues to happen randomly, and the two must adjust their lives around each other."
+    },
+    {
+      "id": 1371185,
+      "title": "Song Sung Blue",
+      "image": "/3HsIAbHWbFDUbY2jfj4wqEjGC3b.jpg",
+      "release_date": "2025-12-25",
+      "desc": "Based on a true story, two down-on-their-luck musicians form a joyous Neil Diamond tribute band, proving it's never too late to find love and follow your dreams."
+    },
+    {
+      "id": 812583,
+      "title": "Wake Up Dead Man: A Knives Out Mystery",
+      "image": "/qCOGGi8JBVEZMc3DVby8rUivyXz.jpg",
+      "release_date": "2025-11-26",
+      "desc": "When young priest Jud Duplenticy is sent to assist charismatic firebrand Monsignor Jefferson Wicks, it’s clear that all is not well in the pews. After a sudden and seemingly impossible murder rocks the town, the lack of an obvious suspect prompts local police chief Geraldine Scott to join forces with renowned detective Benoit Blanc to unravel a mystery that defies all logic."
+    },
+    {
+      "id": 756397,
+      "title": "Hitpig!",
+      "image": "/bYa20LYAZ3Q7lKXtLYybo0yWWTN.jpg",
+      "release_date": "2024-11-01",
+      "desc": "A porcine bounty hunter accepts his next hit: Pickles, a naive, ebullient elephant. Though he initially sets out to capture the perky pachyderm, the unlikely pair find themselves crisscrossing the globe on an adventure that brings out the best in both of them."
+    },
+    {
+      "id": 1217602,
+      "title": "London Calling",
+      "image": "/cpQ4VxBJO7vGV3IUdKzSNf4tH9V.jpg",
+      "release_date": "2025-09-18",
+      "desc": "After fleeing the UK from a job gone wrong, a down on his luck hitman is forced to babysit the son of his new crime boss and show him how to become a man."
+    },
+    {
+      "id": 2757,
+      "title": "Adaptation.",
+      "image": "/ffEmHQAiD0m5dEQ6rlsuA9vlllW.jpg",
+      "release_date": "2002-12-06",
+      "desc": "Charlie Kaufman is a confused L.A. screenwriter overwhelmed by feelings of inadequacy, sexual frustration, self-loathing, and by the screenwriting ambitions of his freeloading twin brother Donald. While struggling to adapt \"The Orchid Thief,\" by Susan Orlean, Kaufman's life spins from pathetic to bizarre. The lives of Kaufman, Orlean's book, become strangely intertwined as each one's search for passion collides with the others'."
+    },
+    {
+      "id": 639988,
+      "title": "No Other Choice",
+      "image": "/vc2S0dvgpsM0XfSiXZDMVkRCSSU.jpg",
+      "release_date": "2025-09-24",
+      "desc": "After being laid off and humiliated by a ruthless job market, a veteran paper mill manager descends into violence in a desperate bid to reclaim his dignity."
+    },
+    {
+      "id": 1317288,
+      "title": "Marty Supreme",
+      "image": "/firAhZA0uQvRL2slp7v3AnOj0ZX.jpg",
+      "release_date": "2025-12-19",
+      "desc": "In 1950s New York, table tennis player Marty Mauser, a young man with a dream no one respects, goes to Hell and back in pursuit of greatness."
+    },
+    {
+      "id": 1363123,
+      "title": "The Family Plan 2",
+      "image": "/semFxuYx6HcrkZzslgAkBqfJvZk.jpg",
+      "release_date": "2025-11-11",
+      "desc": "Now that Dan's assassin days are behind him, all he wants for Christmas is quality time with his kids. But when he learns his daughter has her own plans, he books a family trip to London—putting them all in the crosshairs of an unexpected enemy."
+    },
+    {
+      "id": 1304625,
+      "title": "Bear Claw Camp",
+      "image": "/7iyQ3YtCi0BrLVXg3D2VMuUoqG2.jpg",
+      "release_date": "2025-08-29",
+      "desc": "An adventure with brave children, a talking skunk, and a villain with too much cement on his head, Maia and Jan, our protagonists, have one mission: to save the summer camp."
+    },
+    {
+      "id": 1589891,
+      "title": "A Time for Bravery",
+      "image": "/qKKG22O5pFxqglG0oMjWTjQWCNl.jpg",
+      "release_date": "2025-12-18",
+      "desc": "A psychoanalyst on community service aids an agent shattered by infidelity; together, they will confront danger and discover second chances."
+    },
+    {
+      "id": 1015539,
+      "title": "Santastein",
+      "image": "/ipkIS0Tm4mBvj9iOHHYzzB49JHP.jpg",
+      "release_date": "2024-11-25",
+      "desc": "When Max Causey was six, he accidentally killed Santa. 12 years later, Max rectifies his mistake by resurrecting him, but soon realizes the creature he created is a bloodthirsty killer and it's headed right to his friend's Christmas party."
+    },
+    {
+      "id": 980477,
+      "title": "Ne Zha 2",
+      "image": "/cb5NyNrqiCNNoDkA8FfxHAtypdG.jpg",
+      "release_date": "2025-01-29",
+      "desc": "After a catastrophic event leaves their bodies destroyed, Ne Zha and Ao Bing are granted a fragile second chance at life. As tensions rise between the dragon clans and celestial forces, the two must undergo a series of perilous trials that will test their bond, challenge their identities, and decide the fate of both mortals and immortals."
+    },
+    {
+      "id": 1295026,
+      "title": "100 METERS",
+      "image": "/w2pzrRTevXrW3vgIK4CCYaXvtIc.jpg",
+      "release_date": "2025-09-19",
+      "desc": "A gifted runner trains a determined but unskilled classmate, unaware he's creating a rival who will challenge him on the track for years to come."
+    },
+    {
+      "id": 38757,
+      "title": "Tangled",
+      "image": "/ym7Kst6a4uodryxqbGOxmewF235.jpg",
+      "release_date": "2010-11-24",
+      "desc": "Feisty teenager Rapunzel, who has long and magical hair, wants to go and see sky lanterns on her eighteenth birthday, but she's bound to a tower by her overprotective mother. She strikes a deal with Flynn Rider, a charming wanted thief, and the duo set off on an action-packed escapade."
+    },
+    {
+      "id": 808,
+      "title": "Shrek",
+      "image": "/iB64vpL3dIObOtMZgX3RqdVdQDc.jpg",
+      "release_date": "2001-05-18",
+      "desc": "It ain't easy bein' green -- especially if you're a likable (albeit smelly) ogre named Shrek. On a mission to retrieve a gorgeous princess from the clutches of a fire-breathing dragon, Shrek teams up with an unlikely compatriot -- a wisecracking donkey."
+    },
+    {
+      "id": 23527,
+      "title": "First Squad: The Moment of Truth",
+      "image": "/hBj1aTnGf4564Klv9yIbSuB7Y8w.jpg",
+      "release_date": "2009-05-13",
+      "desc": "Set during the opening days of World War II on the Eastern Front. Its main cast are a group of Soviet teenagers with extraordinary abilities; the teenagers have been drafted to form a special unit to fight the invading German army. They are opposed by a Schutzstaffel officer who is attempting to raise from the dead a supernatural army of crusaders from the 12th-century Order of the Sacred Cross."
+    }
+  ],
+  "admin_codes": [
+    "fWVSwgjpT2D78VUh6X8UBd2rorW",
+    "6uF6PnY1gWNmDkAMYO1qhgdgozM",
+    "gKY6q7SjCkAU6FqvqWybDYgUKIF"
   ]
 }

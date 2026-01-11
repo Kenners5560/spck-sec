@@ -1,4 +1,5 @@
 const accountsURL = "http://localhost:3000/accounts"
+const adminCodesURL = "http://localhost:3000/admin_codes"
 let id = 1
 
 
@@ -7,6 +8,7 @@ function check_inputs(){
     const email = document.querySelector(".email-input").value
     const password = document.querySelector(".password-input").value
     const confirm_password = document.querySelector(".passwordconfirm-input").value
+    const admin_code = document.querySelector(".admincode-input").value
     if(!username || !email || !password){
         document.querySelector(".deny-txt").textContent = "Please fill in your username, email and password"
         return
@@ -19,43 +21,98 @@ function check_inputs(){
         document.querySelector(".deny-txt").textContent = "Password doesn't match confirm password"
     }
     else{
-        fetch(`${accountsURL}?email=${email}`)
+        if(!admin_code){
+            fetch(`${accountsURL}?email=${email}`)
+                .then(res => res.json())
+                .then(data => {
+                    if(data.length > 0){
+                        document.querySelector(".deny-txt").textContent = "There is already an account with this email"
+                        return
+                    }
+                    else{
+                        fetch(accountsURL, {
+                            method: "POST",
+                            headers: {
+                                "Content-Type": "application/json"
+                            },
+                
+                            body: JSON.stringify({
+                                id: "00"+String(id),
+                                username: username,
+                                email: email,
+                                password: password,
+                                role: "user"
+                            })
+                        })
+                            .then(res => {
+                                if(res.ok){
+                                    localStorage.setItem("username", username)
+                                    localStorage.setItem("role", "user")
+                                    id += 1;
+                                    window.location.href = `index.html`
+                                }
+                                else{
+                                    document.querySelector(".deny-txt").textContent = "There was an issue while signing up"
+                                }
+                            })
+                            .catch(error => document.querySelector(".deny-txt").textContent = "There was an issue while signing up")
+                                    
+                    }
+                })
+        }
+        else{
+            fetch(adminCodesURL)
             .then(res => res.json())
             .then(data => {
-                if(data.length > 0){
-                    document.querySelector(".deny-txt").textContent = "There is already an account with this email"
-                    return
-                }
-                else{
-                    fetch(accountsURL, {
-                        method: "POST",
-                        headers: {
-                            "Content-Type": "application/json"
-                        },
-            
-                        body: JSON.stringify({
-                            id: "00"+String(id),
-                            username: username,
-                            email: email,
-                            password: password,
-                            role: "user"
-                        })
-                    })
-                        .then(res => {
-                            if(res.ok){
-                                localStorage.setItem("username", username)
-                                localStorage.setItem("role", "user")
-                                id += 1;
-                                window.location.href = "index.html"
+                data.forEach(codes => {
+                    if(admin_code == codes){
+                        fetch(`${accountsURL}?email=${email}`)
+                        .then(res => res.json())
+                        .then(data => {
+                            if(data.length > 0){
+                                document.querySelector(".deny-txt").textContent = "There is already an account with this email"
+                                return
                             }
                             else{
-                                document.querySelector(".deny-txt").textContent = "There was an issue while signing up"
+                                fetch(accountsURL, {
+                                    method: "POST",
+                                    headers: {
+                                        "Content-Type": "application/json"
+                                    },
+                
+                                    body: JSON.stringify({
+                                        id: "00"+String(id),
+                                        username: username,
+                                        email: email,
+                                        password: password,
+                                        role: "admin"
+                                    })
+                                })
+                                .then(res => {
+                                    if(res.ok){
+                                        localStorage.setItem("username", username)
+                                        localStorage.setItem("role", "admin")
+                                        id += 1;
+                                        window.location.href = `index.html`
+                                        return
+                                    }
+                                    else{
+                                        document.querySelector(".deny-txt").textContent = "There was an issue while signing up"
+                                        return
+                                    }
+                                })
+                                .catch(error => {
+                                    document.querySelector(".deny-txt").textContent = "There was an issue while signing up"
+                                    return
+                                })
                             }
-                        })
-                        .catch(error => document.querySelector(".deny-txt").textContent = "There was an issue while signing up")
-                                
-                }
+                        })       
+                    }
+                })
+                document.querySelector(".deny-txt").textContent = "Invalid admin code"
+                return
             })
+        }
     }
 }
 
