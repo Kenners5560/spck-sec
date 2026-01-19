@@ -11,6 +11,7 @@ function check_inputs_on_click(){
                 if(account){
                     localStorage.setItem("username", account.username)
                     localStorage.setItem("role", account.role)
+                    localStorage.setItem("user_id", account.id)
                     window.location.href = "index.html"
                     return
                 }

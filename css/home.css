@@ -13,6 +13,7 @@ body{
     display: flex;
     align-items: center;
     padding-left: 10px;
+    background-color: rgb(50, 50, 50)
 }
 .main-nav h1{
     color: red;
@@ -38,6 +39,7 @@ body{
     width: 65px;
     height: 90%;
     border-radius: 100%;
+    border: 1.5px solid red;
 }
 .cta{
     background-color: black;
@@ -117,8 +119,7 @@ body{
     align-items: center;
     border-radius: 20px;
     text-align: center;
-    padding-bottom: 10px;
-    
+    padding-bottom: 10px;  
 }
 .action-item img, .horror-item img, .comedy-item img, .animated-item img, .horror-item img, .romance-item img{
     width: 80%;

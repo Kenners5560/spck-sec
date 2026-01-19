@@ -1,0 +1,187 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: black;
+}
+.body-holder{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.go-back{
+    background-color: rgb(35, 35, 35);
+    color: white;
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    gap: 25px;
+    margin-bottom: 20px;
+}
+.go-back p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.user-avatar-holder{
+    display: flex;
+}
+.user-avatar-holder img{
+    width: 150px;
+    height: 150px;
+    border-radius: 200px;
+    border: 3px solid red;
+}
+.user-avatar-holder div{
+    color: rgb(100, 100, 100);
+}
+.username-holder{
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+}
+.username-holder h1{
+    color: white;
+}
+.username-holder div{
+    color: rgb(100, 100, 100);
+    margin-left: 10px;
+}
+.user-bio-holder{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    max-width: 700px;
+    min-height: 50px;
+    overflow-wrap: anywhere;
+}
+.user-bio-holder p{
+    color: white;
+}
+.user-bio-holder div{
+    color:rgb(100, 100, 100);
+    margin-left: 7.5px;
+}
+.optional-btn-holder{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+    padding-left: 42.5%;
+    margin: 15px;
+}
+.optional-btn-holder .logout-btn{
+    background-color: black;
+    color: red;
+    border: 2px solid red;
+    border-radius: 10px;
+    width: 125px;
+    height: 40px;
+    font-size: 15px;
+}
+.optional-btn-holder .delacc-btn{
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    width: 125px;
+    height: 40px;
+    font-size: 15px
+}
+.new-username-input, .new-bio-input{
+    width: 150px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: rgb(35, 35, 35);
+    margin-top: 2.5px;
+    text-align: center;
+    font-size: 20px;
+    border: 1px solid black;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.username-confirm-btn, .bio-confirm-btn{
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    width: 20%;
+    height: 35px;
+    font-size: 15px
+}
+.favorite-main-holder{
+    width: 100vw;
+    min-height: 450px;
+    background-color: black;
+    padding-left: 7.5px;
+}
+.favorite-main-holder h1{
+    color: white
+}
+.favorite-secondary-holder{
+    min-width: 100%;
+    min-height: 65px;
+    display: flex;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    align-items: center;
+    scrollbar-color: #333 #000;
+}
+.favorited-item{
+    background-color: rgb(30, 30, 30);
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    min-height: 350px;
+    margin: 10px;
+    align-items: center;
+    border-radius: 20px;
+    text-align: center;
+    padding-bottom: 10px;  
+}
+.favorited-item img{
+    width: 80%;
+    height: 60%;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.favorited-item h1{
+    color: white;
+    font-size: 20px;
+    margin-top: 10px
+}
+.favorited-item-button-holder{
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+.view{
+    background-color: black;
+    color: red;
+    border: 2px solid red;
+    border-radius: 10px;
+    width: 125px;
+    height: 40px;
+}
+.watch{
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    width: 50%;
+    height: 40px;
+}
+.watch a{
+    color: white;
+    text-decoration: none;
+}
+.view a{
+    color: red;
+    text-decoration: none;
+}

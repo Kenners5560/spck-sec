@@ -1,6 +1,6 @@
 const accountsURL = "http://localhost:3000/accounts"
 const adminCodesURL = "http://localhost:3000/admin_codes"
-let id = 1
+let id = Math.floor(Math.random() * 100000000000)
 
 
 function check_inputs(){
@@ -41,14 +41,17 @@ function check_inputs(){
                                 username: username,
                                 email: email,
                                 password: password,
-                                role: "user"
+                                avatar_path: "https://static.vecteezy.com/system/resources/thumbnails/009/292/244/small/default-avatar-icon-of-social-media-user-vector.jpg",
+                                user_bio: "Your text here",
+                                role: "user",
+                                favorited_movies: []
                             })
                         })
                             .then(res => {
                                 if(res.ok){
                                     localStorage.setItem("username", username)
                                     localStorage.setItem("role", "user")
-                                    id += 1;
+                                    localStorage.setItem("user_id", id)
                                     window.location.href = `index.html`
                                 }
                                 else{
@@ -85,14 +88,15 @@ function check_inputs(){
                                         username: username,
                                         email: email,
                                         password: password,
-                                        role: "admin"
+                                        role: "admin",
+                                        favorited_movies: []
                                     })
                                 })
                                 .then(res => {
                                     if(res.ok){
                                         localStorage.setItem("username", username)
                                         localStorage.setItem("role", "admin")
-                                        id += 1;
+                                        localStorage.setItem("user_id", id)
                                         window.location.href = `index.html`
                                         return
                                     }

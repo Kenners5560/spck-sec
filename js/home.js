@@ -1,4 +1,17 @@
 let movie_list = []
+const username = localStorage.getItem("username")
+const accountsURL = "http://localhost:3000/accounts"
+fetch(`${accountsURL}?username=${username}`)
+.then(res => res.json())
+.then(data => {
+    document.querySelector(".avatar-image").src = data[0].avatar_path
+    localStorage.setItem("user_bio", data[0].user_bio)
+})
+
+const user_role = localStorage.getItem("role")
+if(user_role == "admin"){
+    document.querySelector(".nav-main-item-holder").innerHTML += `<a href="users-list.html">Users</a>`
+}
 
 async function loadMovies(){
     const res = await fetch("https://api.themoviedb.org/3/discover/movie?api_key=04c35731a5ee918f014970082a0088b1&language=en-US&sort_by=popularity.desc&with_genres=28&page=1")
@@ -11,11 +24,11 @@ async function loadMovies(){
             <h1>${movie.title}</h1>
             <div class="action-item-button-holder">
                 <button class="view"><a href="http://127.0.0.1:5500/spck2/detail.html?id=${movie.id}">View more details</a></button>
-                <button class="watch">Watch now</button>
+                <button class="watch"><a href="http://127.0.0.1:5500/spck2/watch.html?id=${movie.id}">Watch now</a></button>
             </div>
         </div>
         `
-        document.querySelector(".action-secondary-holder").innerHTML += action_item;
+        document.querySelector(".action-secondary-holder").innerHTML += action_item
     })
 
     const res2 = await fetch("https://api.themoviedb.org/3/discover/movie?api_key=04c35731a5ee918f014970082a0088b1&language=en-US&sort_by=popularity.desc&with_genres=27&page=1")
@@ -28,7 +41,7 @@ async function loadMovies(){
             <h1>${movie.title}</h1>
             <div class="horror-item-button-holder">
                 <button class="view"><a href="http://127.0.0.1:5500/spck2/detail.html?id=${movie.id}">View more details</a></button>
-                <button class="watch">Watch now</button>
+                <button class="watch"><a href="http://127.0.0.1:5500/spck2/watch.html?id=${movie.id}">Watch now</a></button>
             </div>
         </div>
         `
@@ -45,7 +58,7 @@ async function loadMovies(){
             <h1>${movie.title}</h1>
             <div class="romance-item-button-holder">
                 <button class="view"><a href="http://127.0.0.1:5500/spck2/detail.html?id=${movie.id}">View more details</a></button>
-                <button class="watch">Watch now</button>
+                <button class="watch"><a href="http://127.0.0.1:5500/spck2/watch.html?id=${movie.id}">Watch now</a></button>
             </div>
         </div>
         `
@@ -62,7 +75,7 @@ async function loadMovies(){
             <h1>${movie.title}</h1>
             <div class="comedy-item-button-holder">
                 <button class="view"><a href="http://127.0.0.1:5500/spck2/detail.html?id=${movie.id}">View more details</a></button>
-                <button class="watch">Watch now</button>
+                <button class="watch"><a href="http://127.0.0.1:5500/spck2/watch.html?id=${movie.id}">Watch now</a></button>
             </div>
         </div>
         `
@@ -79,7 +92,7 @@ async function loadMovies(){
             <h1>${movie.title}</h1>
             <div class="animated-item-button-holder">
                 <button class="view"><a href="http://127.0.0.1:5500/spck2/detail.html?id=${movie.id}">View more details</a></button>
-                <button class="watch">Watch now</button>
+                <button class="watch"><a href="http://127.0.0.1:5500/spck2/watch.html?id=${movie.id}">Watch now</a></button>
             </div>
         </div>
         `
@@ -101,7 +114,7 @@ async function saveMovie(movie) {
       },
       body: JSON.stringify(movie)
     });
-  }
+}
 
 loadMovies()
 

@@ -1,0 +1,111 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-nav{
+    width: 100vw;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    background-color: rgb(50, 50, 50)
+}
+.main-nav h1{
+    color: red;
+}
+.nav-main-item-holder{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+    gap: 30px;
+}
+.nav-main-item-holder a{
+    color: red;
+    text-decoration: none;
+    font-size: 22.5px;
+}
+.account-holder{
+    height: 100%;
+    padding-top: 5px;
+}
+.account-holder a img{
+    width: 65px;
+    height: 90%;
+    border-radius: 100%;
+    border: 1.5px solid red;
+}
+.header-txt{
+    color: red;
+    font-size: 45px;
+    margin-top: 15px;
+}
+.favorited-main-holder{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+    min-height: 100%;
+    padding-left: 10px;
+}
+.favorited-item{
+    background-color: rgb(30, 30, 30);
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+    min-height: 350px;
+    margin: 10px;
+    align-items: center;
+    border-radius: 20px;
+    text-align: center;
+    padding-bottom: 10px;  
+}
+.favorited-item img{
+    width: 80%;
+    height: 60%;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.favorited-item h1{
+    color: white;
+    font-size: 20px;
+    margin-top: 10px
+}
+.favorited-item-button-holder{
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+.view{
+    background-color: black;
+    color: red;
+    border: 2px solid red;
+    border-radius: 10px;
+    width: 125px;
+    height: 40px;
+}
+.watch{
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    width: 50%;
+    height: 40px;
+}
+.watch a{
+    color: white;
+    text-decoration: none;
+}
+.view a{
+    color: red;
+    text-decoration: none;
+}
