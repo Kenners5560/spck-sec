@@ -105,7 +105,7 @@ async function loadFavoritedMovies(){
                 <h1>${data.title}</h1>
                 <div class="favorited-item-button-holder">
                     <button class="view"><a href="http://127.0.0.1:5500/spck2/detail.html?id=${data.id}">View more details</a></button>
-                    <button class="watch"><a href="http://127.0.0.1:5500/spck2/watch.html?id=${data.id}">Watch now</a></button>
+                    <button class="watch"><a href="http://127.0.0.1:5500/spck2/watch.html?id=${data.id}">Preview</a></button>
                 </div>
             </div>
             `

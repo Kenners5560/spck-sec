@@ -10,6 +10,9 @@ const movie_list = []
 function back_home(){
     window.location.href = "index.html"
 }
+function preview(){
+    window.location.href = `watch.html?id=${productId}`
+}
 async function saveMovie(movie) {
     const res = await fetch(`http://localhost:3000/products?id=${movie.id}`)
     const data = await res.json()
@@ -53,7 +56,7 @@ fetch(genreURL)
 fetch(actorsURL)
 .then(res => res.json())
 .then(data => {
-    document.querySelector(".actors-name").textContent = `Main actors: ${data.cast.slice(0, 10).map(actor => actor.name)}`
+    document.querySelector(".actors-name").textContent = `Top actors: ${data.cast.slice(0, 10).map(actor => actor.name)}`
 })
 fetch(relatedURL)
 .then(res => res.json())
@@ -65,7 +68,7 @@ fetch(relatedURL)
             <h1>${movie.title}</h1>
             <div class="related-item-button-holder">
                 <button class="view"><a href="http://127.0.0.1:5500/spck2/detail.html?id=${movie.id}">View more details</a></button>
-                <button class="watch"><a href="http://127.0.0.1:5500/spck2/watch.html?id=${movie.id}">Watch now</a></button>
+                <button class="watch"><a href="http://127.0.0.1:5500/spck2/watch.html?id=${movie.id}">Preview</a></button>
             </div>
         </div>
         `
@@ -134,6 +137,7 @@ async function mark_as_favorited_check(movieID){
 }
 
 document.querySelector(".return-arrow").addEventListener("click", back_home)
+document.querySelector(".btn-watch").addEventListener("click", preview)
 mark_as_favorited_check(productId)
 // loadUser()
 // user.favorited_movies.length = 0

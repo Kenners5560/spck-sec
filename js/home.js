@@ -12,7 +12,16 @@ const user_role = localStorage.getItem("role")
 if(user_role == "admin"){
     document.querySelector(".nav-main-item-holder").innerHTML += `<a href="users-list.html">Users</a>`
 }
-
+function search(){
+    const searchInput = document.querySelector(".search-input").value
+    if(searchInput){
+        window.location.href = `search.html?search_input=${searchInput}`
+        return
+    }
+    else{
+        return
+    }
+}
 async function loadMovies(){
     const res = await fetch("https://api.themoviedb.org/3/discover/movie?api_key=04c35731a5ee918f014970082a0088b1&language=en-US&sort_by=popularity.desc&with_genres=28&page=1")
     const action_movies = await res.json()
@@ -24,7 +33,7 @@ async function loadMovies(){
             <h1>${movie.title}</h1>
             <div class="action-item-button-holder">
                 <button class="view"><a href="http://127.0.0.1:5500/spck2/detail.html?id=${movie.id}">View more details</a></button>
-                <button class="watch"><a href="http://127.0.0.1:5500/spck2/watch.html?id=${movie.id}">Watch now</a></button>
+                <button class="watch"><a href="http://127.0.0.1:5500/spck2/watch.html?id=${movie.id}">Preview</a></button>
             </div>
         </div>
         `
@@ -41,7 +50,7 @@ async function loadMovies(){
             <h1>${movie.title}</h1>
             <div class="horror-item-button-holder">
                 <button class="view"><a href="http://127.0.0.1:5500/spck2/detail.html?id=${movie.id}">View more details</a></button>
-                <button class="watch"><a href="http://127.0.0.1:5500/spck2/watch.html?id=${movie.id}">Watch now</a></button>
+                <button class="watch"><a href="http://127.0.0.1:5500/spck2/watch.html?id=${movie.id}">Preview</a></button>
             </div>
         </div>
         `
@@ -58,7 +67,7 @@ async function loadMovies(){
             <h1>${movie.title}</h1>
             <div class="romance-item-button-holder">
                 <button class="view"><a href="http://127.0.0.1:5500/spck2/detail.html?id=${movie.id}">View more details</a></button>
-                <button class="watch"><a href="http://127.0.0.1:5500/spck2/watch.html?id=${movie.id}">Watch now</a></button>
+                <button class="watch"><a href="http://127.0.0.1:5500/spck2/watch.html?id=${movie.id}">Preview</a></button>
             </div>
         </div>
         `
@@ -75,7 +84,7 @@ async function loadMovies(){
             <h1>${movie.title}</h1>
             <div class="comedy-item-button-holder">
                 <button class="view"><a href="http://127.0.0.1:5500/spck2/detail.html?id=${movie.id}">View more details</a></button>
-                <button class="watch"><a href="http://127.0.0.1:5500/spck2/watch.html?id=${movie.id}">Watch now</a></button>
+                <button class="watch"><a href="http://127.0.0.1:5500/spck2/watch.html?id=${movie.id}">Preview</a></button>
             </div>
         </div>
         `
@@ -92,7 +101,7 @@ async function loadMovies(){
             <h1>${movie.title}</h1>
             <div class="animated-item-button-holder">
                 <button class="view"><a href="http://127.0.0.1:5500/spck2/detail.html?id=${movie.id}">View more details</a></button>
-                <button class="watch"><a href="http://127.0.0.1:5500/spck2/watch.html?id=${movie.id}">Watch now</a></button>
+                <button class="watch"><a href="http://127.0.0.1:5500/spck2/watch.html?id=${movie.id}">Preview</a></button>
             </div>
         </div>
         `
@@ -141,3 +150,4 @@ Promise.all(requests).then(results => {
         })
     })
 })
+document.querySelector(".search-btn").addEventListener("click", search)
